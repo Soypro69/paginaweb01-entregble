@@ -192,3 +192,34 @@ footer{
 	background-color: #1293d4;
 	text-align: center;
 }
+
+/*Media Queries Responsiva una página*/
+@media(max-width: 768px){
+	header #marca,
+	header nav,
+	header nav li,
+	#boletin h1,
+	#boletin form,
+	#cajas .cajas,
+	article#main-col,
+	aside#lateral{
+		float: none;
+		text-align: center;
+		width: 100%}
+}
+header{
+	padding-bottom: 20px;
+}
+
+#boletin h1{
+	margin-top: 40px;
+}
+
+#boletin button{
+	display: block;
+	width: 100%;
+}
+
+input, textarea{
+	width: 98%;
+}
